@@ -1,0 +1,14 @@
+# Training and experiments (laptop, Kaggle, Colab)
+# Python 3.11+. On Kaggle, torch and torchvision are already installed.
+# Exact versions get pinned in week 6.
+
+torch>=2.2
+torchvision>=0.17
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3        # stratified split by lesion, classification metrics
+pillow>=10.0             # reading and resizing the JPG images
+matplotlib>=3.7
+tqdm>=4.65               # progress bars
+torchmetrics[image]>=1.3 # FID and KID (the [image] extra installs torch-fidelity)

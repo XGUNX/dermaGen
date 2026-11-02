@@ -1,0 +1,31 @@
+# ---- Data: never pushed to GitHub (too big, and the licence is non-commercial) ----
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# ---- Training checkpoints: only the final models in weights/ are kept ----
+checkpoints/
+*.ckpt
+results/samples/*.npz
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Secrets: API keys, Kaggle token ----
+.streamlit/secrets.toml
+kaggle.json
+.env
+
+# ---- System and editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

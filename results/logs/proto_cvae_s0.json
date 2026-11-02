@@ -1,0 +1,19 @@
+{
+  "run_name": "proto_cvae_s0",
+  "config": {
+    "epochs": 20,
+    "beta": 1.0,
+    "lr": 0.001,
+    "latent_dim": 16,
+    "data": "hmnist_28_28_RGB, random split (prototype)"
+  },
+  "started": "2026-11-02 13:32:25",
+  "device": "cpu",
+  "platform": "rippppppppppppppppp",
+  "finished": "2026-11-02 13:33:14",
+  "total_minutes": 0.8,
+  "peak_gpu_memory_mb": 0.0,
+  "summary": {
+    "final_val_loss": 43.995191419755784
+  }
+}
